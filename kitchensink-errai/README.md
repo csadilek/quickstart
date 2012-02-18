@@ -20,6 +20,11 @@ Unlike the other Errai quickstart projects, this project is only supported for u
 on JBoss AS 7. Although you could get it to work on any Java web server, we do
 not provide profiles in the POM to help you with that.
 
+Try opening the demo in multiple browsers at the same time (use different browsers,
+not just separate windows of the same browser). Notice that every time you register
+a new member, it will appear in all open browsers simultaneously. This happens because
+the Member updates are broadcast to all clients via the Errai Bus.
+
 
 System requirements
 -------------------
