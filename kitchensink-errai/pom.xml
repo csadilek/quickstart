@@ -190,11 +190,6 @@
         <artifactId>errai-tools</artifactId>
         <version>${errai.version}</version>
       </dependency>
-      <dependency>
-        <groupId>org.mvel</groupId>
-        <artifactId>mvel2</artifactId>
-        <version>${mvel.version}</version>
-      </dependency>
 
       <!-- Errai CDI Integration Modules -->
       <dependency>
